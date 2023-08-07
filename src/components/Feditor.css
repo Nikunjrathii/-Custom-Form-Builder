@@ -1,0 +1,27 @@
+.input-user-img {
+  display: flex;
+ 
+}
+.labelImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px dashed var(--border-color);
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.inputImg {
+  display: none;
+}
+
+.full-page-background {
+    background-color: rgb(240, 255, 255);
+    min-height: 100vh;
+  }
